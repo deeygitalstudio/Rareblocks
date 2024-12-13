@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    width: 100px;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.nav-link{
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+form button{
+    font-size: 13px;
+     font-weight: 600;
+}
+
+.navbar-nav{
+    padding-top: 5PX;
+  
+}
+
+.imgcont{
+    position: relative;
+    margin: 0 auto;
+}
+
+.imgcont .img1{
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+.imgcont .img2{
+    position: absolute;
+    left: 190px;
+    top: 20px;
+    z-index: -3;
+ 
+}
+
+.imgcont img{
+  width: 100%;
+  max-width: 450px;
+}
+
+
+
+
+.title h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.title p{
+    font-size: 15px;
+    margin: 30px 0;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .imgcont{
+    position: relative;
+    overflow-y: visible;
+}
+
+.imgcont .img1{
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+.imgcont .img2{
+    position: absolute;
+    bottom: 60px;
+    z-index: -3;
+    left: 80px;
+ 
+}
+
+.title h1{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+
+.title p{
+    font-size: 14px;
+    margin: 35px 0;
+    text-align: center;
+}
+
+.imgcont img{
+  width: 100%;
+  max-width: 500px;
+}
+
+}
+@media screen and (max-width: 600px) {
+    .imgcont{
+    position: relative;
+    overflow-y: visible;
+}
+
+.imgcont .img1{
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+.imgcont .img2{
+    position: absolute;
+    bottom: 60px;
+    z-index: -3;
+    left: 80px;
+ 
+}
+
+.title h1{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+
+.title p{
+    font-size: 14px;
+    margin: 35px 0;
+    text-align: center;
+}
+
+.imgcont img{
+  width: 100%;
+  max-width: 320px;
+}
+
+}
+.inp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    border-radius: 10px;
+    padding: 3px 3px;
+}
+
+.inp input{
+    width: 60%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 10px;
+}
+
+.inp button{
+    background-color: #020302;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foot h1{
+    font-weight: 500;
+}
+
+.foot p{
+    font-weight: 500;
+    font-size: 13px;
+}
+
