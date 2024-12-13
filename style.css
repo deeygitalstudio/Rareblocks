@@ -143,7 +143,7 @@ form button{
 
     .foot h1{
     font-weight: 500;
-        font-size: 25px
+        font-size: 20px;
 }
 
 .foot p{
@@ -200,5 +200,6 @@ form button{
 .foot p{
     font-weight: 500;
     font-size: 13px;
+     font-size: 35px;
 }
 
