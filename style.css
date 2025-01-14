@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-.container{
-    height: 100vh!important;
-}
-
-
 .navbar-brand img {
     width: 100px;
     padding: 0;
@@ -19,7 +14,7 @@
 }
 
 .nav-link{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 550;
     cursor: pointer;
 }
@@ -54,7 +49,7 @@ form button{
 
 .imgcont img{
   width: 100%;
-  max-width: 450px;
+  max-width: 550px;
 }
 
 
@@ -74,7 +69,7 @@ form button{
 @media screen and (max-width: 1000px) {
     .imgcont{
     position: relative;
-    overflow-y: visible;
+
 }
 
 .imgcont .img1{
@@ -141,19 +136,13 @@ form button{
     text-align: center;
 }
 
+.--section{
+    padding: 4rem 16px!important;
+}
+
 .imgcont img{
   width: 100%;
-  max-width: 300px;
-}
-
-    .foot h1{
-    font-weight: 500;
-        font-size: 20px;
-}
-
-.foot p{
-    font-weight: 500;
-    font-size: 13px;
+  max-width: 500px;
 }
 
 }
@@ -163,7 +152,7 @@ form button{
     justify-content: center;
     width: 100%;
     border: 1px solid rgba(128, 128, 128, 0.479);
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 3px 3px;
 }
 
@@ -183,6 +172,7 @@ form button{
     outline: 0;
     width: 40%;
     border-radius: 10px;
+    font-size: 14px;
 }
 
 .foot{
@@ -200,12 +190,16 @@ form button{
 
 .foot h1{
     font-weight: 500;
-     font-size: 30px;
+    font-size: 25px;
 }
 
 .foot p{
     font-weight: 500;
     font-size: 13px;
-
 }
+
+/* 
+.container{
+    height: 100vh!important;
+} */
 
